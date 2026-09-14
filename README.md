@@ -24,15 +24,17 @@ pip install -r requirements.txt
 
 ## Reproduction
 
-The repository provides the source code required for the numerical methods, model evaluation, validation tests, and final-result generation.
+The repository provides the source code for the numerical methods, model architectures, validation procedures, and final-result generation workflow.
 
-The canonical final result script is:
+The final-result generation script is:
 
 ```bash
 python scripts/paper_results_final.py
 ```
 
-Training scripts are provided in `scripts/`. Large training datasets and trained model checkpoints are not included in the repository.
+This script generates the manuscript tables and figures from the canonical raw experiment artifacts used in the study. Those raw experiment files and trained model checkpoints are not included in this public repository.
+
+The repository therefore provides the implementation and selected final reproducibility artifacts, rather than a complete self-contained rerun of every experiment from the original raw data and checkpoints.
 
 ## Results
 
@@ -43,6 +45,7 @@ The `results/` directory contains the final exported tables:
 * `Table3_independent_generalization.csv`
 * `Table4_operator_cpu_cost.csv`
 * `TableS1_error_distribution_metrics.csv`
+* `paper_results_summary.txt`
 
 The corresponding manuscript figures are included in `figures/`.
 
