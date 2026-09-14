@@ -1,0 +1,23 @@
+PAPER RESULTS FINAL — 20-08-2026
+
+Canonical sources:
+Table 1: F:\PythonProjects\NLS_NN_FD_Project\results\nn_fd\nn_ff_fd_ra_holdout_test28.npz
+Table 2: F:\PythonProjects\NLS_NN_FD_Project\results\nn_fd\nn_ff_fd_ra_robustness_n512_test29.npz
+Table 3: F:\PythonProjects\NLS_NN_FD_Project\results\nn_fd\independent_realization_generalization_test37.npz
+Table 4: F:\PythonProjects\NLS_NN_FD_Project\results\nn_fd\operator_cpu_benchmark_test38s.npz
+Table S1: F:\PythonProjects\NLS_NN_FD_Project\results\nn_fd\paper_results_final\test28_error_metrics.npz
+
+Outputs:
+Table 1: F:\PythonProjects\NLS_NN_FD_Project\results\nn_fd\paper_results_final_20_8\Table1_main_accuracy.csv
+Table 2: F:\PythonProjects\NLS_NN_FD_Project\results\nn_fd\paper_results_final_20_8\Table2_unseen_512_robustness.csv
+Table 3: F:\PythonProjects\NLS_NN_FD_Project\results\nn_fd\paper_results_final_20_8\Table3_independent_generalization.csv
+Table 4: F:\PythonProjects\NLS_NN_FD_Project\results\nn_fd\paper_results_final_20_8\Table4_operator_cpu_cost.csv
+Table S1: F:\PythonProjects\NLS_NN_FD_Project\results\nn_fd\paper_results_final_20_8\TableS1_error_distribution_metrics.csv
+Figure 1: F:\PythonProjects\NLS_NN_FD_Project\results\nn_fd\paper_results_final_20_8\figure1_main_accuracy.png
+Figure 2: F:\PythonProjects\NLS_NN_FD_Project\results\nn_fd\paper_results_final_20_8\figure2_generalization_512.png
+Figure 3: F:\PythonProjects\NLS_NN_FD_Project\results\nn_fd\paper_results_final_20_8\figure3_accuracy_cost_tradeoff.png
+
+N=512 five-seed exact mean +/- std:
+Parent FD   = 1.821645197661e-03 +/- 1.473389890129e-04
+NN-FD       = 2.806525823548e-03 +/- 5.581713808469e-05
+NN-FF-FD-RA = 1.868728710806e-03 +/- 1.405442357367e-04
