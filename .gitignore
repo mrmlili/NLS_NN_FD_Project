@@ -1,0 +1,27 @@
+﻿__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Trained model/checkpoint files
+*.pt
+*.pth
+*.h5
+
+# Large/generated numerical arrays
+*.npy
+*.npz
+
+# Keep the canonical reference solution
+!data/
+!data/reference_solution.npz
+
+# Keep canonical tabulated results
+!results/
+!results/*.csv
+!results/*.txt
+
+# Keep manuscript figures
+!figures/
+!figures/*.png
