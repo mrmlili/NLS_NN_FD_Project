@@ -1,4 +1,4 @@
-﻿__pycache__/
+__pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .vscode/
@@ -25,3 +25,25 @@
 # Keep manuscript figures
 !figures/
 !figures/*.png
+
+# Approved reproducibility artifacts - v1.0.0
+!data/
+!data/nn_fd/
+!data/nn_fd/nn_fd_training_data.npz
+!data/nn_fd/nn_fd_baseline_best.pt
+!data/nn_fd/nn_fd_normalization.npz
+!data/nn_fd/nn_fd_training_results.npz
+!data/nn_fd/nn_fd_v3_best.pt
+!data/nn_fd/nn_fd_v3_normalization.npz
+!data/nn_fd/nn_fd_v3_training_results.npz
+!data/nn_fd/nn_ff_fd_ra_best.pt
+!data/nn_fd/nn_ff_fd_ra_normalization.npz
+!data/nn_fd/nn_ff_fd_ra_training_results.npz
+!results/
+!results/nn_fd/
+!results/nn_fd/nn_ff_fd_ra_holdout_test28.npz
+!results/nn_fd/nn_ff_fd_ra_robustness_n512_test29.npz
+!results/nn_fd/independent_realization_generalization_test37.npz
+!results/nn_fd/operator_cpu_benchmark_test38s.npz
+!results/nn_fd/paper_results_final/
+!results/nn_fd/paper_results_final/test28_error_metrics.npz

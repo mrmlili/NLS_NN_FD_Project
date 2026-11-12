@@ -1,0 +1,20 @@
+Research Data and Artifacts License
+
+Unless otherwise noted, research datasets, trained model checkpoints,
+normalization files, numerical result arrays, tables, figures, and other
+research artifacts in this repository are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Copyright (c) 2026 Maryam Jalili.
+
+You may share and adapt these materials, provided appropriate attribution
+is given, a link to the license is supplied, and changes are indicated.
+
+Suggested attribution: Maryam Jalili, NN-FF-FD-RA Research Code and Data,
+version v1.0.0.
+
+Full license:
+https://creativecommons.org/licenses/by/4.0/
+
+Software source code in src/, scripts/, and tests/ is covered by LICENSE.
+Third-party dependencies remain subject to their respective licenses.
